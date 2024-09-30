@@ -24,7 +24,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	PORT := os.Getenv("TODO_PORT")
+	PORT := os.Getenv("PORT")
 	fmt.Println(PORT)
 
 	todos := []Todo{}
